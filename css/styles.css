@@ -16,7 +16,7 @@
   /* Icon colors */
   --main-icon-color: #afb1b8;
   --accent-icon-color: #ffffff;
-  /* Others */
+  /* Othhero__ers */
   --transition-fast: 250ms;
   --transition-slow: 500ms;
   --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,9 +62,7 @@ h3 {
 p {
   margin: 0;
 }
-.adress {
-  font-style: normal;
-}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -311,16 +309,6 @@ p {
   padding-top: 0;
 }
 
-/* Sections */
-
-.section-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
 /* Team section */
 .team {
   background-color: var(--third-bg-color);
@@ -419,12 +407,12 @@ p {
   | Footer
   |============================
 */
-.page > .footer {
+.footer {
   background-color: var(--secondary-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer > .container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
