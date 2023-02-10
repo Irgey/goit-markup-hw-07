@@ -77,6 +77,7 @@
     gap: 30px;
         &__icon {
         fill: var(--secondary-text-color);
+        transition: fill var(--transition-fast) var(--transition-function);
     }
 }
 
@@ -89,10 +90,14 @@
     padding-bottom: 31px;
 
     color: var(--secondary-text-color);
-    &:hover .contacts__icon,
-    &:focus .contacts__icon {
-            fill: var(--accent-color);
-        }
+    // &:hover .contacts__icon,
+    // &:focus .contacts__icon {
+    //         fill: var(--accent-color);
+    //     }
 
 }
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
+    fill: var(--accent-color);}
+
 

@@ -524,6 +524,8 @@ p {
 }
 .contacts__icon {
   fill: var(--secondary-text-color);
+  -webkit-transition: fill var(--transition-fast) var(--transition-function);
+  transition: fill var(--transition-fast) var(--transition-function);
 }
 
 .contacts__link {
@@ -538,7 +540,9 @@ p {
   padding-bottom: 31px;
   color: var(--secondary-text-color);
 }
-.contacts__link:hover .contacts__icon, .contacts__link:focus .contacts__icon {
+
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
   fill: var(--accent-color);
 }
 

@@ -204,6 +204,7 @@ p {
 }
 .contacts__icon {
   fill: var(--secondary-text-color);
+  transition: fill var(--transition-fast) var(--transition-function);
 }
 .contacts__link:hover .contacts__icon,
 .contacts__link:focus .contacts__icon {
@@ -551,7 +552,6 @@ p {
   width: 100%;
   height: 100%;
   background-color: var(--projects-hover-color);
-  opacity: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
@@ -563,7 +563,6 @@ p {
 }
 .projects-link:hover .product-box-text-hidden,
 .projects-link:focus .product-box-text-hidden {
-  opacity: 1;
   transform: translateY(0);
 }
 
