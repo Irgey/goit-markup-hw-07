@@ -804,7 +804,8 @@ p {
   -webkit-transition: color var(--transition-fast) var(--transition-function);
   transition: color var(--transition-fast) var(--transition-function);
 }
-.address__link--white {
+
+.adress__link--white {
   color: var(--primary-white-color);
   font-style: normal;
   text-decoration: none;

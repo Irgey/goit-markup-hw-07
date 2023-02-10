@@ -45,12 +45,13 @@
     letter-spacing: 0.03em;
 
     transition: color var(--transition-fast) var(--transition-function);
-    &--white {
+
+}
+            .adress__link--white {
             color: var(--primary-white-color);
             font-style: normal;
             text-decoration: none;
         }
-}
 
 .address__item:not(:last-child) {
     margin-bottom: 9px;
