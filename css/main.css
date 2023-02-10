@@ -633,6 +633,7 @@ p {
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--third-bg-color);
+  border-radius: 4px;
 }
 
 .features__title {
